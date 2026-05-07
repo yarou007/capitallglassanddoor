@@ -1,0 +1,52 @@
+# Image Rename Map
+
+Legacy filename -> SEO filename
+
+- `board up after.jpeg` -> `emergency-board-up-after-baltimore.jpg`
+- `board up before.jpeg` -> `emergency-board-up-before-baltimore.jpg`
+- `commercial-door-closer.jpg` -> `commercial-door-closer-repair-dmv.jpg`
+- `door-hardware-gallery-02.jpg` -> `door-hardware-repair-gallery-02.jpg`
+- `doorglassafter.jpeg` -> `door-glass-replacement-after.jpg`
+- `doorglassbefore.jpeg` -> `door-glass-replacement-before.jpg`
+- `electric windows.jpeg` -> `electric-window-repair-service.jpg`
+- `electric-mirrors-2.jpg` -> `mirror-display-repair-service-02.jpg`
+- `glass door.jpeg` -> `glass-door-repair-vertical.jpg`
+- `glass windows.jpeg` -> `storefront-window-glass-replacement.jpg`
+- `glass-cutting-workbench.jpg` -> `glass-cutting-workbench-service.jpg`
+- `img-02691dacdfba1f73.jpg` -> `commercial-storefront-entry-door-01.jpg`
+- `img-1134b26ec60b7515.jpg` -> `commercial-storefront-entry-door-02.jpg`
+- `img-2a0c49907bb7b31a.jpg` -> `automatic-door-track-repair-01.jpg`
+- `img-3098e185f13f91a0.jpg` -> `commercial-glass-door-interior-01.jpg`
+- `img-466c8958117610c9.jpg` -> `automatic-door-track-repair-02.jpg`
+- `img-563bac1374213085.jpg` -> `glass-aluminum-framing-installation-01.jpg`
+- `img-57f1ffbcf83b634a.jpg` -> `emergency-board-up-plywood-materials-01.jpg`
+- `img-5e7ffe2de6b559b6.jpg` -> `storefront-door-lock-hardware-01.jpg`
+- `img-6c9f60cefc5f9de6.jpg` -> `storefront-threshold-repair-01.jpg`
+- `img-7256436f4cdc41fb.jpg` -> `mortise-lock-repair-closeup-01.jpg`
+- `img-94ae8ed1d777b872.jpg` -> `bottom-door-pivot-repair-01.jpg`
+- `img-956a4955d1ddb21c.jpg` -> `commercial-entry-glass-door-03.jpg`
+- `img-9e19b3ab02e1d2d8.jpg` -> `overhead-door-closer-install-01.jpg`
+- `img-a9d50296cb4a2b8e.jpg` -> `double-exit-door-panic-bar-01.jpg`
+- `img-ac0dc74c141fc9b7.jpg` -> `steel-security-door-install-01.jpg`
+- `img-af734f238d1e0eb7.jpg` -> `emergency-exit-door-panic-bar-02.jpg`
+- `img-b5c964f621819f5e.jpg` -> `keyed-commercial-lock-cylinder-01.jpg`
+- `img-d58531058380e4b1.jpg` -> `metal-back-door-installation-01.jpg`
+- `img-e867c6d6f076fcc4.jpg` -> `door-closer-parts-replacement-01.jpg`
+- `locksmith.png` -> `locksmith-service-icon.png`
+- `mirrors inside .jpeg` -> `jewelry-store-glass-display-counter-01.jpg`
+- `mirrors toilette.jpeg` -> `restroom-mirror-installation-01.jpg`
+- `mirros store.jpeg` -> `jewelry-store-glass-display-counter-02.jpg`
+- `mirross inside store.jpeg` -> `retail-counter-glass-panel-repair-01.jpg`
+- `og-image.jpg` -> `storefront-entrance-door-before-repair.jpg`
+- `storefront-door-glass-panel.jpg` -> `storefront-door-glass-panel-replacement.jpg`
+- `storefront-doors.jpg` -> `storefront-double-doors-commercial.jpg`
+- `storefront-entry-open-sign.jpg` -> `storefront-entry-open-sign-dmv.jpg`
+- `storefront-gallery-04.jpg` -> `storefront-gallery-repair-04.jpg`
+- `storefront-gallery-06.jpg` -> `storefront-gallery-repair-06.jpg`
+- `storefront-gallery-07.jpg` -> `storefront-gallery-repair-07.jpg`
+- `storefront-interior-night.jpg` -> `storefront-interior-night-view.jpg`
+- `storefront-transom-damage.jpg` -> `storefront-transom-glass-damage.jpg`
+- `window.png` -> `window-repair-icon.png`
+- `windowsglassafter.jpeg` -> `window-glass-replacement-after.jpg`
+- `windowsglassbefore.jpeg` -> `window-glass-replacement-before.jpg`
+

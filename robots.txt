@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.capitalglassanddoor.com/sitemap.xml
+# LLM context files:
+# https://www.capitalglassanddoor.com/llms.txt
+# https://www.capitalglassanddoor.com/llms-full.txt

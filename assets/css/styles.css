@@ -318,6 +318,7 @@ header.site-header {
   text-decoration: none;
   border-radius: 999px;
   padding: 0.75rem 1.1rem;
+  min-height: 48px;
   font-weight: 800;
   border: 2px solid transparent;
   transition: transform 150ms ease;
@@ -686,13 +687,13 @@ footer ul {
 .float-cta {
   position: fixed;
   left: 50%;
-  bottom: 0.8rem;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 0.6rem);
   transform: translateX(-50%);
   background: #fff;
   border: 1px solid var(--line);
   box-shadow: var(--shadow-soft);
   border-radius: 999px;
-  display: flex;
+  display: none;
   gap: 0.5rem;
   padding: 0.45rem;
   z-index: 95;
@@ -767,6 +768,7 @@ footer ul {
   .hero-grid,
   .contact-grid,
   .grid-3,
+  .grid-4,
   .grid-2,
   .gallery {
     grid-template-columns: 1fr;
@@ -829,6 +831,10 @@ footer ul {
 
   .quick-stats {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .float-cta {
+    display: flex;
   }
 }
 

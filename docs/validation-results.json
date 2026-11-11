@@ -1,0 +1,135 @@
+{
+  "static": {
+    "html_pages": 53,
+    "preserved_existing_pages": 50,
+    "new_location_pages": 3,
+    "local_references": 2118,
+    "faq_answers": 125,
+    "sitemap_urls": 47,
+    "noindex_pages": 6,
+    "baseline_urls_and_outgoing_destinations": "passed",
+    "forms": 0,
+    "status": "passed",
+    "public_placeholders": 0,
+    "public_owner_facing_notes": 0
+  },
+  "browser": {
+    "pages": 53,
+    "layout_cases": 212,
+    "failures": [],
+    "javascript_errors": [],
+    "missing_requests": [],
+    "menu": "passed",
+    "accordion": "passed",
+    "tracking": "passed (dataLayer and direct gtag, no duplicates)",
+    "no_javascript_contact": "passed",
+    "work_photos": "8 responsive gallery images decoded",
+    "accessibility": [
+      {
+        "path": "/",
+        "violations": []
+      },
+      {
+        "path": "/services/storefront-glass-repair.html",
+        "violations": []
+      },
+      {
+        "path": "/locations/washington-dc.html",
+        "violations": []
+      },
+      {
+        "path": "/contact.html",
+        "violations": []
+      },
+      {
+        "path": "/blog/how-to-measure-storefront-glass.html",
+        "violations": []
+      },
+      {
+        "path": "/gallery.html",
+        "violations": []
+      },
+      {
+        "path": "/testimonials-case-studies.html",
+        "violations": []
+      }
+    ]
+  },
+  "lighthouse": [
+    {
+      "page": "storefront",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": "0.9 s",
+        "largest-contentful-paint": "1.1 s",
+        "cumulative-layout-shift": "0",
+        "total-blocking-time": "0 ms"
+      }
+    },
+    {
+      "page": "homepage",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": "0.9 s",
+        "largest-contentful-paint": "2.0 s",
+        "cumulative-layout-shift": "0",
+        "total-blocking-time": "0 ms"
+      }
+    },
+    {
+      "page": "washington-dc",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": "0.9 s",
+        "largest-contentful-paint": "1.1 s",
+        "cumulative-layout-shift": "0",
+        "total-blocking-time": "0 ms"
+      }
+    },
+    {
+      "page": "gallery",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": "0.9 s",
+        "largest-contentful-paint": "2.3 s",
+        "cumulative-layout-shift": "0",
+        "total-blocking-time": "0 ms"
+      }
+    }
+  ],
+  "work_photos": {
+    "owner_confirmed_previous_client_work": true,
+    "selected_originals": 8,
+    "webp_variants": 22,
+    "originals_preserved": true,
+    "original_selected_bytes": 5774528,
+    "largest_variants_bytes": 861176,
+    "captions": "visible content only; no inferred client, city, date, repair outcome or before/after pairing"
+  },
+  "customer_copy_cleanup": {
+    "html_pages": 53,
+    "internal_items_retained_in_documentation": 22,
+    "public_placeholders": 0,
+    "storefront_main_words": 967
+  }
+}

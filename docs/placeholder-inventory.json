@@ -1,0 +1,266 @@
+{
+  "format_version": 2,
+  "public_placeholders": [],
+  "public_owner_facing_notes": [],
+  "outstanding_internal_items": [
+    {
+      "id": 1,
+      "request": "[ADD: Verified Google Business Profile URL for sameAs; confirmed openingHours; GBP-consistent public address only if appropriate.]",
+      "relevant_files": [
+        "knowledge-center.html",
+        "index.html",
+        "faq.html",
+        "privacy-policy.html",
+        "terms-of-service.html",
+        "testimonials-case-studies.html",
+        "services.html",
+        "gallery.html",
+        "seo-strategy.html",
+        "contact.html",
+        "about.html",
+        "locations.html",
+        "locations/bethesda-md.html",
+        "locations/arlington-va.html",
+        "locations/rockville-md.html",
+        "locations/alexandria-va.html",
+        "locations/capitol-heights-md.html",
+        "locations/inner-harbor-baltimore.html",
+        "locations/towson-md.html",
+        "locations/silver-spring-md.html",
+        "locations/fells-point-baltimore.html",
+        "locations/fairfax-va.html",
+        "locations/washington-dc.html",
+        "locations/downtown-baltimore.html",
+        "locations/hyattsville-md.html",
+        "locations/baltimore-md.html",
+        "locations/takoma-park-md.html",
+        "blog/common-commercial-door-hardware-problems.html",
+        "blog/board-up-vs-glass-replacement.html",
+        "blog/index.html",
+        "blog/what-to-do-after-storefront-glass-breaks.html",
+        "blog/storefront-door-not-closing-causes-fixes.html",
+        "blog/how-to-choose-glass-door-repair-company.html",
+        "blog/how-fast-emergency-glass-service-can-arrive.html",
+        "blog/secure-business-after-break-in.html",
+        "blog/commercial-storefront-safety-checklist.html",
+        "blog/tempered-vs-laminated-storefront-glass.html",
+        "blog/is-storefront-glass-covered-by-insurance.html",
+        "blog/how-to-measure-storefront-glass.html",
+        "blog/emergency-glass-repair-cost-guide.html",
+        "blog/property-manager-glass-emergency-playbook.html",
+        "blog/what-to-do-when-glass-breaks-after-hours.html",
+        "blog/emergency-glass-repair-vs-scheduled-replacement.html",
+        "blog/what-to-expect-from-24-7-glass-repair-call.html",
+        "blog/when-you-need-board-up-service.html",
+        "services/storefront-glass-repair.html",
+        "services/commercial-door-hardware.html",
+        "services/emergency-glass-repair.html",
+        "services/board-up-service.html",
+        "services/locksmith-services.html",
+        "services/commercial-glass-repair.html",
+        "services/residential-glass-repair.html",
+        "services/emergency-door-repair.html"
+      ]
+    },
+    {
+      "id": 2,
+      "request": "[ADD: Confirm service hours and whether 24/7 service is available.]",
+      "relevant_files": [
+        "knowledge-center.html",
+        "index.html",
+        "faq.html",
+        "privacy-policy.html",
+        "terms-of-service.html",
+        "testimonials-case-studies.html",
+        "services.html",
+        "gallery.html",
+        "seo-strategy.html",
+        "contact.html",
+        "about.html",
+        "locations.html",
+        "locations/bethesda-md.html",
+        "locations/arlington-va.html",
+        "locations/rockville-md.html",
+        "locations/alexandria-va.html",
+        "locations/capitol-heights-md.html",
+        "locations/inner-harbor-baltimore.html",
+        "locations/towson-md.html",
+        "locations/silver-spring-md.html",
+        "locations/fells-point-baltimore.html",
+        "locations/fairfax-va.html",
+        "locations/washington-dc.html",
+        "locations/downtown-baltimore.html",
+        "locations/hyattsville-md.html",
+        "locations/baltimore-md.html",
+        "locations/takoma-park-md.html",
+        "blog/common-commercial-door-hardware-problems.html",
+        "blog/board-up-vs-glass-replacement.html",
+        "blog/index.html",
+        "blog/what-to-do-after-storefront-glass-breaks.html",
+        "blog/storefront-door-not-closing-causes-fixes.html",
+        "blog/how-to-choose-glass-door-repair-company.html",
+        "blog/how-fast-emergency-glass-service-can-arrive.html",
+        "blog/secure-business-after-break-in.html",
+        "blog/commercial-storefront-safety-checklist.html",
+        "blog/tempered-vs-laminated-storefront-glass.html",
+        "blog/is-storefront-glass-covered-by-insurance.html",
+        "blog/how-to-measure-storefront-glass.html",
+        "blog/emergency-glass-repair-cost-guide.html",
+        "blog/property-manager-glass-emergency-playbook.html",
+        "blog/what-to-do-when-glass-breaks-after-hours.html",
+        "blog/emergency-glass-repair-vs-scheduled-replacement.html",
+        "blog/what-to-expect-from-24-7-glass-repair-call.html",
+        "blog/when-you-need-board-up-service.html",
+        "services/storefront-glass-repair.html",
+        "services/commercial-door-hardware.html",
+        "services/emergency-glass-repair.html",
+        "services/board-up-service.html",
+        "services/locksmith-services.html",
+        "services/commercial-glass-repair.html",
+        "services/residential-glass-repair.html",
+        "services/emergency-door-repair.html"
+      ]
+    },
+    {
+      "id": 3,
+      "request": "[ADD: Verified licensing and insurance details, including applicable jurisdictions and documentation.]",
+      "relevant_files": [
+        "index.html"
+      ]
+    },
+    {
+      "id": 4,
+      "request": "[ADD: Confirmed warranty terms, exclusions and claim contact.]",
+      "relevant_files": [
+        "index.html"
+      ]
+    },
+    {
+      "id": 5,
+      "request": "[ADD: Real Google reviews with source links and permission where required.]",
+      "relevant_files": [
+        "index.html"
+      ]
+    },
+    {
+      "id": 6,
+      "request": "[ADD: Owner-approved privacy policy covering call and WhatsApp records, purposes, retention, sharing, deletion requests and analytics/cookie practices before enabling analytics.]",
+      "relevant_files": [
+        "privacy-policy.html"
+      ]
+    },
+    {
+      "id": 7,
+      "request": "[ADD: Owner-approved service terms covering authorization, pricing approval, payment, cancellation, timing, warranty and dispute contact.]",
+      "relevant_files": [
+        "terms-of-service.html"
+      ]
+    },
+    {
+      "id": 8,
+      "request": "[ADD: Real Google reviews with direct review links, accurate attribution and permission where required.]",
+      "relevant_files": [
+        "testimonials-case-studies.html"
+      ]
+    },
+    {
+      "id": 9,
+      "request": "[ADD: Verified Google Business Profile URL.]",
+      "relevant_files": [
+        "testimonials-case-studies.html"
+      ]
+    },
+    {
+      "id": 10,
+      "request": "[ADD: Confirm genuine before/after photo pairs and approved project captions before adding comparison labels.]",
+      "relevant_files": [
+        "gallery.html"
+      ]
+    },
+    {
+      "id": 11,
+      "request": "[ADD: Verified Google Business Profile URL and matching service-area details.]",
+      "relevant_files": [
+        "contact.html"
+      ]
+    },
+    {
+      "id": 12,
+      "request": "[ADD: Confirm GBP-consistent public business address or service-area-only status; do not publish a private or invented address.]",
+      "relevant_files": [
+        "contact.html"
+      ]
+    },
+    {
+      "id": 13,
+      "request": "[ADD: Applicable current license details and insurance documentation, verified for the services and jurisdictions offered.]",
+      "relevant_files": [
+        "about.html"
+      ]
+    },
+    {
+      "id": 14,
+      "request": "[ADD: Written warranty terms, duration, exclusions, and responsibility for materials and workmanship.]",
+      "relevant_files": [
+        "about.html"
+      ]
+    },
+    {
+      "id": 15,
+      "request": "[ADD: Verified Google Business Profile URL and matching public business details.]",
+      "relevant_files": [
+        "about.html"
+      ]
+    },
+    {
+      "id": 16,
+      "request": "[ADD: Real Google reviews with review links and permission where needed; no rewritten or invented quotations.]",
+      "relevant_files": [
+        "about.html"
+      ]
+    },
+    {
+      "id": 17,
+      "request": "[ADD: Confirm service coverage for Rockville, MD; Towson, MD; and Fell’s Point, Baltimore, MD.]",
+      "relevant_files": [
+        "locations.html"
+      ]
+    },
+    {
+      "id": 18,
+      "request": "[ADD: Confirm service coverage for Rockville, MD.]",
+      "relevant_files": [
+        "locations/rockville-md.html"
+      ]
+    },
+    {
+      "id": 19,
+      "request": "[ADD: Confirm service coverage for Towson, MD.]",
+      "relevant_files": [
+        "locations/towson-md.html"
+      ]
+    },
+    {
+      "id": 20,
+      "request": "[ADD: Confirm service coverage for Fell’s Point, Baltimore, MD.]",
+      "relevant_files": [
+        "locations/fells-point-baltimore.html"
+      ]
+    },
+    {
+      "id": 21,
+      "request": "[ADD: Configure GA4/GTM and Google Ads IDs/labels after confirming account access and privacy settings.]",
+      "relevant_files": [
+        "assets/js/main.js"
+      ]
+    },
+    {
+      "id": 22,
+      "request": "[ADD: AW-CONVERSION_ID/CALL_LABEL and AW-CONVERSION_ID/WHATSAPP_LABEL.]",
+      "relevant_files": [
+        "assets/js/main.js"
+      ]
+    }
+  ],
+  "notes": "These requests are retained only in project documentation. Relevant files indicate where confirmed facts or configuration could apply in a future update; they are not current placeholder occurrences or claims that the facts have been confirmed."
+}

@@ -1,121 +1,48 @@
-# Capital Glass and Door Services - SEO and Conversion Strategy
+# Conversion and local SEO audit
 
-## 1) Competitive Findings
+This replaces the previous form/SMS strategy. The Search Console figures below are owner-supplied findings, not a fresh account export. Work is prepared locally; production publication and Search Console submission have not been performed.
 
-### Arlington247lockrepair.com
-- Strengths:
-  - Strong emergency CTA density (phone-first design, repeated "Call Now").
-  - Clear trust stack above the fold: licensed/insured, response-time promise, pricing clarity.
-  - Long FAQ and neighborhood lists to support local relevance.
-- Weaknesses:
-  - Narrow positioning; limited glass-repair breadth.
-  - Fewer dedicated location pages and topic clusters.
+## Findings ranked by impact
 
-### Dmv247glassrepair.com
-- Strengths:
-  - Broad service grid across emergency board-up, storefront, commercial glass, door repair, locksmith, and residential topics.
-  - Good intent alignment for "emergency" and "same-day" queries.
-  - Includes safety/compliance references and multi-service coverage.
-- Weaknesses:
-  - Service sprawl can dilute topical focus if internal linking and hierarchy are not tightly controlled.
-  - Location intent can be strengthened with deeper neighborhood pages.
+| Priority | Finding in the original source | Customer/search impact | Implemented change |
+| --- | --- | --- | --- |
+| 1 | Two request forms, including an external formsubmit.co endpoint; SMS and contact-page detours competed with calling. | Adds friction for urgent mobile visitors and offers a contact path the owner does not want. | Removed all fields, submission logic and SMS actions. Contact page is Call/WhatsApp. Both actions exist as ordinary links without JavaScript. |
+| 2 | Storefront page had limited useful copy and no specific local H1; homepage led with broad emergency services. | Weak match to the storefront queries responsible for the visible impressions. | Storefront-led homepage, detailed 700–1,000-word storefront guide, links to every market and supporting service. |
+| 3 | Repeated DMV/city strings and near-identical city pages; geographic detail was weak. | Owner reports impressions from Dublin and Jackson rather than the target region. | Consistent Washington, DC / Arlington, VA / Baltimore, MD signals in homepage title, H1, opening paragraph and NAP footer; unique local business/access context and FAQs. |
+| 4 | Published 24/7, licensed/insured, same-day, no-hidden-fees claims, review quotations and Baltimore/DC/Arlington job outcomes without verification. | Trust and brand clarity suffer when claims cannot be supported. | Removed unsupported claims and retained hypothetical scenarios. The owner subsequently confirmed the supplied photos as previous client work and authorized display; descriptive work photos now support the proof sections. Reviews, credentials and other unknown business details remain in the internal checklist and are omitted from customer pages. Exact full business name retained. |
+| 5 | Sticky controls were absent on desktop; mobile contact targets could be below 52px and body/footer space did not reserve room for the fixed bar. Mobile hero imagery pushed content down. | Makes the main action harder to find and can obscure content. | Two 54px mobile split buttons, safe-area padding, desktop floating pair, compact first-screen hero, native FAQ accordions and accessible menu. |
+| 6 | All 95 image placements lacked explicit dimensions; remote font requests and large unverified job photos added cost. | Layout movement and slower phone rendering. | Local system font, dimensioned imagery, responsive WebP variants and below-fold lazy loading. Curated previous-work photos are used after owner confirmation; original files are preserved. |
+| 7 | Several head sections had a malformed canonical tag and stray markup; metadata and schema carried unsupported hours. | Unreliable parsing and inconsistent entity signals. | Valid heads, unique metadata, canonical URLs, LocalBusiness/Service/Breadcrumb/FAQ graphs; no fabricated address/hours/reviews. |
+| 8 | Tracking covered telephone/SMS/form submissions but not WhatsApp, and existing strategy instructed adding forms. | Cannot compare the requested contact methods; future edits could regress. | Call and WhatsApp event hooks, disabled Ads destinations, setup notes and repeatable static verification. |
 
-### Dcemergencylockanddoor.com
-- Strengths:
-  - Strong commercial specialization around panic bars, closers, exit devices, code language, and stocked brands.
-  - Trust-oriented operational messaging and process framing.
-- Weaknesses:
-  - Residential intent capture is thinner.
-  - Broad geography can dilute local precision for certain DMV queries.
+## Targeting and architecture
 
-### Baltimoreglassrepair.com
-- Strengths:
-  - Excellent local page architecture (city + neighborhoods).
-  - Strong knowledge-center clustering by user intent.
-  - Practical, emergency-oriented messaging with local context.
-- Weaknesses:
-  - Opportunity to intensify conversion modules (stickier CTAs, richer trust proof placement).
+Primary money page: `/services/storefront-glass-repair.html`. Support it with emergency glass repair, board-up, commercial door/hardware and locksmith pages. The homepage and five customer segments link into those services. City pages link to storefront/supporting services and nearby areas; blogs link to relevant commercial services. All original HTML paths and outgoing internal HTML destinations remain available.
 
-## 2) Differentiation Strategy
-- Build service depth *and* local depth simultaneously.
-- Keep call-first emergency UX on every page (header CTA + sticky call/text buttons).
-- Use city + neighborhood pages with logistical context (loading, manager coordination, traffic windows).
-- Publish intent clusters that route to service pages via strong internal links.
+Use full `City, ST` spelling, including `Washington, DC`, rather than ambiguous short place names. The supplied market list does not establish a business address. Never invent a local office or turn neighborhood references into completed-job claims.
 
-## 3) Keyword Framework
+All ten city markets supplied by the owner, plus Downtown and Inner Harbor, have indexable local content. Legacy Rockville, Towson and Fell’s Point pages are retained and pending confirmation because they were not in the supplied market list. These three pages use `noindex, follow`, are omitted from the sitemap and are not asserted in active `areaServed`. Their URLs remain intact, with customer-facing repair and availability guidance.
 
-### Primary high-intent clusters
-- emergency glass repair arlington va
-- storefront glass repair washington dc
-- commercial door repair baltimore md
-- emergency board up service near me
-- commercial door hardware repair dmv
-- emergency locksmith arlington va
+## Previous-work photographs
 
-### Variants and synonyms
-- 24/7, urgent, emergency, immediate, same-day, near me, after-hours
-- storefront door glass repair, tempered storefront glass replacement
-- panic bar repair, exit device repair, door closer repair
+The owner confirmed that the photographs supplied in `assets/images/` are previous client work by Capital Glass and Door Services and authorized their use. The gallery and proof sections use a curated selection with descriptive captions and responsive WebP derivatives. `assets/images/work/manifest.json` maps selected originals to the generated variants; originals remain unchanged.
 
-## 4) On-Page SEO Requirements (per page)
-- Unique title tag (service + location + intent).
-- Compelling meta description with CTA language.
-- Single H1 with clear keyword target.
-- H2/H3 blocks for scope, benefits, process, FAQ, and location context.
-- Image alt text tied to actual service context.
-- Internal links:
-  - Service -> Location -> Contact
-  - Blog -> Service -> Location
+This confirmation supports identifying the images as previous client work. It does not establish client identities, project cities or dates, turnaround times, specific outcomes or before/after pairings. Captions stay within visible image content. Reviews, licensing, insurance, hours and warranty terms still need their own evidence.
 
-## 5) Technical SEO Checklist
-- Mobile-first responsive layout.
-- Crawlable nav and footer links.
-- XML sitemap and robots.txt in root.
-- HTTPS required at deployment.
-- Image compression/next-gen formats recommended in production.
-- Performance targets:
-  - LCP < 2.5s
-  - CLS < 0.1
-  - INP < 200ms
+## Honest structured data
 
-## 6) Local SEO Checklist
-- Optimize Google Business Profile with service categories and service descriptions.
-- Build consistent citations (NAP) across local directories.
-- Collect reviews continuously via post-service SMS link.
-- Publish service-area pages and keep maps/profile coverage consistent.
+Use Schema.org `HomeAndConstructionBusiness` under `LocalBusiness`, with `Locksmith` on the locksmith page, and separate `Service.serviceType` entries. `GlassRepair` is not an established Schema.org type; it is not emitted. District-level service areas use `Place`, and city markets use `City`. Shared `@id`, name and telephone are consistent.
 
-## 7) Conversion System
-- Header CTA on every page.
-- Sticky mobile call + SMS buttons.
-- Quote form fields: name, phone, location, urgency, service requested, details.
-- Copy pattern:
-  - Problem recognition
-  - Trust proof
-  - Immediate action CTA
-  - FAQ objection handling
+`sameAs`, `openingHours`, a public postal address, ratings and review records remain absent until verified. Google’s LocalBusiness rich-result requirements include a physical address; the current service-area graph describes the business honestly but does not establish rich-result eligibility. Match the real Business Profile before adding address data. [Google LocalBusiness documentation](https://developers.google.com/search/docs/appearance/structured-data/local-business), [HomeAndConstructionBusiness](https://schema.org/HomeAndConstructionBusiness), [Locksmith](https://schema.org/Locksmith), [Service.serviceType](https://schema.org/serviceType).
 
-## 8) Content Template - Service Page
-1. H1 with service + location-intent language.
-2. Intro paragraph with urgency and audience fit.
-3. Trust badges.
-4. Service details (what is included).
-5. Benefits/outcomes.
-6. FAQ block.
-7. Primary CTA and secondary form CTA.
+FAQPage markup matches visible accordions. It helps describe the page but does not promise a Google FAQ rich result; Google’s current documentation records that the feature no longer appears. [Schema.org FAQPage](https://schema.org/FAQPage), [Google documentation updates](https://developers.google.com/search/updates).
 
-## 9) Content Template - Location Page
-1. H1: service + location.
-2. Local logistics section (parking, loading, building access, timing).
-3. Neighborhood list and "call to confirm coverage".
-4. Related local service cards.
-5. Local FAQ.
-6. Conversion CTA.
+## Publication and measurement
 
-## 10) Content Template - Blog Post
-1. Intent-focused title matching real search query.
-2. Short practical intro.
-3. Checklist/process section.
-4. Decision section (when to call, when to board up, etc.).
-5. Internal links to service + location pages.
-6. CTA module to call or request service.
+1. Resolve the owner checklist, especially actual service coverage, contact availability and GBP consistency. Keep missing facts in the internal checklist; publish business claims only after they are supported by evidence.
+2. Upload the static files to the existing domain. Keep existing paths and canonical host; do not introduce redirects for current HTML URLs.
+3. Validate deployed pages and submit the updated sitemap in the owner’s Search Console. Request recrawl for the storefront page, homepage and primary cities. This local change does not submit anything automatically.
+4. Configure exactly one GA4 event route and test both contact hooks. Configure Ads only with real conversion IDs/labels. Click events measure attempts, not answered calls or sent messages.
+5. Compare US impressions, relevant city queries, storefront-page engagement and real call/message outcomes over subsequent reporting periods. Check whether irrelevant-city impressions decline. No ranking or lead-volume gain is guaranteed.
 
+The additional eight editorial topics are in `docs/blog-topics.md`. Build them only after the service and local pages have been reviewed; keep the same evidence standard.

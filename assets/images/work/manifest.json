@@ -1,0 +1,214 @@
+[
+  {
+    "id": "storefront-glass-entry",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.08 (1).jpeg",
+    "original_width": 576,
+    "original_height": 1024,
+    "original_bytes": 86583,
+    "caption": "Glass entry door with overhead closer and push bar",
+    "variants": [
+      {
+        "path": "assets/images/work/storefront-glass-entry-360.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 42422
+      },
+      {
+        "path": "assets/images/work/storefront-glass-entry-576.webp",
+        "width": 576,
+        "height": 1024,
+        "bytes": 97086
+      }
+    ]
+  },
+  {
+    "id": "commercial-exit-doors",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.10.jpeg",
+    "original_width": 1320,
+    "original_height": 1088,
+    "original_bytes": 138768,
+    "caption": "Paired commercial doors with closers and exit hardware",
+    "variants": [
+      {
+        "path": "assets/images/work/commercial-exit-doors-360.webp",
+        "width": 360,
+        "height": 297,
+        "bytes": 8082
+      },
+      {
+        "path": "assets/images/work/commercial-exit-doors-720.webp",
+        "width": 720,
+        "height": 593,
+        "bytes": 21584
+      },
+      {
+        "path": "assets/images/work/commercial-exit-doors-1080.webp",
+        "width": 1080,
+        "height": 890,
+        "bytes": 39096
+      }
+    ]
+  },
+  {
+    "id": "single-exit-door",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.10 (1).jpeg",
+    "original_width": 3840,
+    "original_height": 5120,
+    "original_bytes": 1375630,
+    "caption": "Single commercial exit door with panic bar",
+    "variants": [
+      {
+        "path": "assets/images/work/single-exit-door-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 20764
+      },
+      {
+        "path": "assets/images/work/single-exit-door-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 67052
+      },
+      {
+        "path": "assets/images/work/single-exit-door-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 132002
+      }
+    ]
+  },
+  {
+    "id": "overhead-door-closer",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.07 (3).jpeg",
+    "original_width": 3840,
+    "original_height": 5120,
+    "original_bytes": 1047343,
+    "caption": "Overhead closer on a solid commercial door",
+    "variants": [
+      {
+        "path": "assets/images/work/overhead-door-closer-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 8666
+      },
+      {
+        "path": "assets/images/work/overhead-door-closer-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 26026
+      },
+      {
+        "path": "assets/images/work/overhead-door-closer-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 46276
+      }
+    ]
+  },
+  {
+    "id": "commercial-door-strike",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.07 (2).jpeg",
+    "original_width": 3024,
+    "original_height": 4032,
+    "original_bytes": 807613,
+    "caption": "Commercial door strike and latch opening",
+    "variants": [
+      {
+        "path": "assets/images/work/commercial-door-strike-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 15088
+      },
+      {
+        "path": "assets/images/work/commercial-door-strike-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 41524
+      },
+      {
+        "path": "assets/images/work/commercial-door-strike-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 76060
+      }
+    ]
+  },
+  {
+    "id": "commercial-lock-cylinders",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.08.jpeg",
+    "original_width": 576,
+    "original_height": 1024,
+    "original_bytes": 120002,
+    "caption": "Commercial lock cylinders",
+    "variants": [
+      {
+        "path": "assets/images/work/commercial-lock-cylinders-360.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 73286
+      },
+      {
+        "path": "assets/images/work/commercial-lock-cylinders-576.webp",
+        "width": 576,
+        "height": 1024,
+        "bytes": 160152
+      }
+    ]
+  },
+  {
+    "id": "warehouse-exit-doors",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.06.jpeg",
+    "original_width": 1024,
+    "original_height": 576,
+    "original_bytes": 56950,
+    "caption": "Paired warehouse doors with exit bars",
+    "variants": [
+      {
+        "path": "assets/images/work/warehouse-exit-doors-360.webp",
+        "width": 360,
+        "height": 202,
+        "bytes": 9348
+      },
+      {
+        "path": "assets/images/work/warehouse-exit-doors-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 29688
+      },
+      {
+        "path": "assets/images/work/warehouse-exit-doors-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 52560
+      }
+    ]
+  },
+  {
+    "id": "exterior-metal-door",
+    "source": "assets/images/WhatsApp Image 2026-03-14 at 00.24.11.jpeg",
+    "original_width": 3840,
+    "original_height": 5120,
+    "original_bytes": 2141639,
+    "caption": "Exterior metal commercial door",
+    "variants": [
+      {
+        "path": "assets/images/work/exterior-metal-door-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 36886
+      },
+      {
+        "path": "assets/images/work/exterior-metal-door-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 135278
+      },
+      {
+        "path": "assets/images/work/exterior-metal-door-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 257944
+      }
+    ]
+  }
+]

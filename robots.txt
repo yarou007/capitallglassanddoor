@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /docs/
+Disallow: /scripts/
 
 Sitemap: https://www.capitalglassanddoor.com/sitemap.xml
 # LLM context files:

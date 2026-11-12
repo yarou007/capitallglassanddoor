@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 DOMAIN = "https://www.capitalglassanddoor.com/"
 HOST = "www.capitalglassanddoor.com"
 BRAND = "Capital Glass and Door Services"
-PHONE = "tel:+17032440559"
+PHONE = "tel:+12026434062"
 PENDING = {
     "locations/rockville-md.html",
     "locations/towson-md.html",
@@ -278,7 +278,7 @@ def verify(root: Path, baseline: Path | None) -> int:
                 if href != PHONE:
                     fail(page.name, f"incorrect telephone action: {href}")
             if url.hostname and (url.hostname == "wa.me" or "whatsapp" in url.hostname):
-                if url.scheme != "https" or url.netloc != "wa.me" or url.path != "/17032440559":
+                if url.scheme != "https" or url.netloc != "wa.me" or url.path != "/12026434062":
                     fail(page.name, f"incorrect WhatsApp destination: {href}")
                     continue
                 try:
@@ -332,7 +332,7 @@ def verify(root: Path, baseline: Path | None) -> int:
                         answer = question.get("acceptedAnswer", {})
                         structured_faqs.append((plain_html(str(question.get("name", ""))), plain_html(str(answer.get("text", "")))))
                 if "LocalBusiness" in types(node) or "Locksmith" in types(node):
-                    if node.get("name") != BRAND or node.get("telephone") != "+17032440559":
+                    if node.get("name") != BRAND or node.get("telephone") != "+12026434062":
                         fail(page.name, "business JSON-LD name/telephone is inconsistent")
                     if any(key in node for key in ("aggregateRating", "review", "openingHours", "openingHoursSpecification")):
                         fail(page.name, "unconfirmed reviews or service hours must stay out of business JSON-LD")

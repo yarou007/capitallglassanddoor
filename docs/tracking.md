@@ -5,7 +5,7 @@
 | Event | Trigger | Parameters |
 | --- | --- | --- |
 | `call_button_click` | A `tel:` link is clicked | `page_path`, `page_type`, `cta_placement`, `contact_method`, `transport_type` |
-| `whatsapp_button_click` | The business `wa.me/17032440559` link is clicked | Same |
+| `whatsapp_button_click` | The business `wa.me/12026434062` link is clicked | Same |
 
 Placement distinguishes `hero`, `header`, `body`, `footer`, `whatsapp_guide`, `sticky_mobile` and `floating_desktop`. Only the path is included; query strings, WhatsApp draft text, photos, addresses and visitor-entered information are not event parameters. Google’s own tag may collect additional page information; review that configuration independently before enabling it.
 

@@ -50,7 +50,7 @@
     const link = event.target.closest('a[href]');
     if (!link) return;
     const url = new URL(link.href);
-    const type = url.protocol === 'tel:' ? 'call' : (url.hostname === 'wa.me' && url.pathname === '/17032440559') ? 'whatsapp' : null;
+    const type = url.protocol === 'tel:' ? 'call' : (url.hostname === 'wa.me' && url.pathname === '/12026434062') ? 'whatsapp' : null;
     if (!type) return;
     const eventName = type === 'call' ? 'call_button_click' : 'whatsapp_button_click';
     // Never collect WhatsApp message text, personal details, or URL query parameters.

@@ -2,7 +2,7 @@
 
 A static HTML/CSS website with vanilla JavaScript. Serve or upload these files directly; there is no framework, dependency installation or build step.
 
-Primary actions are **Call** (`tel:+17032440559`) and **WhatsApp** (`https://wa.me/17032440559` with an encoded, page-specific draft). There are no request fields or submission endpoints.
+Primary actions are **Call** (`tel:+12026434062`) and **WhatsApp** (`https://wa.me/12026434062` with an encoded, page-specific draft). There are no request fields or submission endpoints.
 
 The site leads with storefront glass repair and replacement, then emergency board-up, commercial doors/hardware and locksmith services. Existing `.html` URLs and outgoing internal HTML destinations are retained. Three requested market pages were added.
 

@@ -22,7 +22,7 @@ import xml.etree.ElementTree as ET
 
 DOMAIN = "https://www.capitalglassanddoor.com/"
 HOST = "www.capitalglassanddoor.com"
-BRAND = "Capital Glass and Door Services"
+BRAND = "Capital Glass and Door"
 PHONE = "tel:+12026434062"
 PENDING = {
     "locations/rockville-md.html",

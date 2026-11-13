@@ -20,6 +20,9 @@
     document.addEventListener('click', function (event) {
       if (!nav.contains(event.target) && !menu.contains(event.target)) closeMenu(false);
     });
+    document.addEventListener('focusin', function (event) {
+      if (!nav.contains(event.target) && !menu.contains(event.target)) closeMenu(false);
+    });
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && nav.classList.contains('open')) closeMenu(true);
     });

@@ -1,4 +1,4 @@
-# Capital Glass and Door Services
+# Capital Glass and Door
 
 A static HTML/CSS website with vanilla JavaScript. Serve or upload these files directly; there is no framework, dependency installation or build step.
 
@@ -34,6 +34,6 @@ Public pages contain customer-facing service information, actual work photos and
 
 No Google Analytics or Google Ads library loads yet. The contact-click hooks work locally and can feed an installed Google tag or GTM. Add real IDs, approved privacy details and the appropriate measurement configuration before enabling collection. A click records intent to contact, not a completed phone call or a customer message.
 
-The owner confirmed that the photographs in `assets/images/` show previous client work by Capital Glass and Door Services and authorized their use on the website. Curated work photos support the gallery and proof sections, with responsive WebP variants in `assets/images/work/`; the original files remain unchanged. The [asset manifest](assets/images/work/manifest.json) records the selected originals and generated variants.
+The owner confirmed that the photographs in `assets/images/` show previous client work by Capital Glass and Door and authorized their use on the website. Curated work photos support the gallery and proof sections, with responsive WebP variants in `assets/images/work/`; the original files remain unchanged. The [asset manifest](assets/images/work/manifest.json) records the selected originals and generated variants.
 
 Captions describe what is visible. Client names, project cities, dates, turnaround times and before/after pairings are not inferred from filenames or image appearance. Add those details only after specific confirmation. The photos do not establish reviews, licensing, insurance, service hours or warranty terms.
